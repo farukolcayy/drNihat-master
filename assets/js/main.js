@@ -44,6 +44,7 @@
   };
 
   /* 4. MainSlider-1 */
+  
   // h1-hero-active
   function mainSlider() {
     var BasicSlider = $('.slider-active');
@@ -53,6 +54,18 @@
     });
     BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
       var $animatingElements = $('#slide_1[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+      doAnimations($animatingElements);
+    });
+    BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+      var $animatingElements = $('#slide_2[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+      doAnimations($animatingElements);
+    });
+    BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+      var $animatingElements = $('#slide_3[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+      doAnimations($animatingElements);
+    });
+    BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+      var $animatingElements = $('#slide_4[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
       doAnimations($animatingElements);
     });
     BasicSlider.slick({

@@ -2816,35 +2816,39 @@ hr {
 }
 
 #slide_1 {
+    background-size: 100% 100%;
     margin-top: -1px;
     background-image: url(../img/hero/h1_hero.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover
+   
 }
 
 #slide_2 {
+    background-size: 100% 100%;
     margin-top: -1px;
     background-image: url(../img/hero/h1_hero_2.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover
+   
 }
 
 #slide_3 {
+    background-size: 100% 100%;
     margin-top: -1px;
     background-image: url(../img/hero/h1_hero_3.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover
+  
 }
 
 #slide_4 {
+    background-size: 100% 100%;
     margin-top: -1px;
     background-image: url(../img/hero/h1_hero_4.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover
+  
 }
 
 .slider-area .hero__caption {
@@ -2981,7 +2985,7 @@ hr {
 
 @media (max-width: 575px) {
     .slider-area .hero__caption h1 {
-        font-size: 29px;
+        font-size: 18px;
         line-height: 1.5
     }
 }
@@ -3012,8 +3016,24 @@ hr {
 
 @media (max-width: 575px) {
     .slider-area .hero__caption p {
+        font-size: 14px;
+      
+        margin-bottom: 12px;
         padding-right: 0px;
-        font-size: 15px
+    }
+    .hero-btn {
+        padding: 13px 45px 13px 14px;
+    }
+    .btn{
+        font-size: 11px;
+    }
+    
+    .slider-area .hero__caption h1 {
+        margin-bottom: 14px;
+    }
+    .single-slider{
+        max-height: 350px; 
+        max-height: 350px;
     }
 }
 
