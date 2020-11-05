@@ -371,6 +371,7 @@ hr {
 }
 
 .btn {
+   
     border: none;
     padding: 18px 58px 18px 19px;
     text-transform: capitalize;
@@ -378,7 +379,7 @@ hr {
     cursor: pointer;
     color: #fff;
     display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     background-size: 200%;
     transition: 0.6s;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
@@ -481,7 +482,7 @@ hr {
 }
 
 .header-btn {
-    padding: 18px 38px
+    padding: 18px 15px
 }
 
 .hero-btn {
@@ -967,7 +968,7 @@ hr {
 }
 
 .ml-30 {
-    margin-left: 30px
+    margin-left: 12px
 }
 
 .ml-35 {
@@ -2588,7 +2589,7 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .header-area .main-header .main-menu {
-        margin-right: 30px
+        margin-right: 115px
     }
 }
 
