@@ -2615,10 +2615,10 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .header-area .main-header .main-menu {
-        margin-right: 70px;
+        margin-right: -25px;
     }
     #telMenu{
-        margin-left: -40px;
+        margin-left: -140px;
     }
 }
 
