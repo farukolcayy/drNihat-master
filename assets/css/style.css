@@ -5920,9 +5920,19 @@ hr {
 .modal-message .modal-dialog .modal-content .modal-header p {
     display: block
 }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:65%;
+    position:relative;
+    height:0;
 
-.contact-section {
-    padding: 130px 0 100px
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:90%;
+    width:100%;
+    position:absolute;
 }
 
 @media (max-width: 991px) {
