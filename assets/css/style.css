@@ -2225,6 +2225,30 @@ hr {
 }
 
 @media (max-width: 575px) {
+    .instagram_feed{
+        height: 500px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .instagram_feed{
+        height: 625px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .instagram_feed{
+        height: 500px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .instagram_feed{
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 575px) {
     .testimonial-padding {
         padding-top: 60px;
         padding-bottom: 40px
@@ -5255,6 +5279,62 @@ hr {
     -webkit-transition: 0.5s;
     transition: 0.5s
 }
+
+.instagram_profile{
+    text-align: center;
+    display: flex;
+      margin-right: -6px;
+      margin-left: -6px
+  }
+  .instagram_username{
+    font-size: 20px !important;
+      margin-bottom: 40px;
+  }
+  .instagram_gallery{
+  
+      margin-right: -6px;
+      margin-left: -6px;
+  }
+  .instagram_gallery a img{
+    width: 33.33%;
+      float: left;
+      padding-right: 6px;
+      padding-left: 6px;
+      margin-bottom: 15px;
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .instagram_feed{
+    height: 360px;
+    background: #fbf9ff;
+      padding: 30px;
+      margin-bottom: 30px;
+  }
+
+  .instagram_profile_image{
+    border-radius: 10em;
+    width: 40%;
+    max-width: 125px;
+    min-width: 50px;
+    margin-bottom: 20px;
+  }
+  .instagram_username a {
+      color: blue;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .blog_right_sidebar .instagram_feeds .instagram_row {
     display: flex;
