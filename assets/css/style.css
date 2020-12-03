@@ -42,16 +42,18 @@
 .theme-color {
     color: #0f61ef
 }
-.excert{
+
+.excert {
     line-height: 20px;
 }
-.excert-list{
+
+.excert-list {
     margin-bottom: 20px;
     font-size: 14px;
     list-style: outside;
- 
 }
-.excert-header{
+
+.excert-header {
     font-size: 20px !important;
 }
 
@@ -383,7 +385,6 @@ hr {
 }
 
 .btn {
-   
     border: none;
     padding: 18px 58px 18px 19px;
     text-transform: capitalize;
@@ -613,7 +614,7 @@ hr {
     #scrollUp, #back-top {
         right: 16px
     }
-    .p-line{
+    .p-line {
         line-height: 20px;
     }
 }
@@ -2219,31 +2220,31 @@ hr {
         padding-top: 60px;
         padding-bottom: 40px
     }
-    .logo-white-width{
+    .logo-white-width {
         width: 80%;
     }
 }
 
 @media (max-width: 575px) {
-    .instagram_feed{
+    .instagram_feed {
         height: 500px !important;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .instagram_feed{
+    .instagram_feed {
         height: 625px !important;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .instagram_feed{
+    .instagram_feed {
         height: 500px !important;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .instagram_feed{
+    .instagram_feed {
         height: 300px !important;
     }
 }
@@ -2265,19 +2266,21 @@ hr {
         padding-top: 130px;
         padding-bottom: 125px
     }
-    .logo-white-width{
+    .logo-white-width {
         width: 100%;
     }
 }
-.logo-white-width{
+
+.logo-white-width {
     width: 100%;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .w-padding2 {
         padding-top: 100px;
         padding-bottom: 100px
     }
-    .logo-white-width{
+    .logo-white-width {
         width: 100%;
     }
 }
@@ -2641,25 +2644,23 @@ hr {
     .header-area .main-header .main-menu {
         margin-right: -25px;
     }
-    #telMenu{
+    #telMenu {
         margin-left: -140px;
     }
 }
 
-
-@media only screen and (max-width: 1199px) and (min-width: 992px){
-    #telMenu{
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    #telMenu {
         margin-left: -120px;
     }
 }
-
 
 @media only screen and (min-width: 1600px) {
     .header-area .main-header .main-menu {
         margin-right: 115px;
     }
-    
 }
+
 .header-area .main-header .main-menu ul li {
     display: inline-block;
     position: relative;
@@ -2681,34 +2682,33 @@ hr {
     font-family: "Muli", sans-serif
 }
 
-@media (min-width: 992px){}
- .col-lg-2 {
-   flex: 0 0 16.666667%;
+@media (min-width: 992px) {}
+
+.col-lg-2 {
+    flex: 0 0 16.666667%;
     max-width: 16.666667%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    
-   .ml-30 {
-    margin-left: 15px;
-}
-.header-area .main-header .main-menu ul li a {
- 
 
-    padding: 30px 11px;
-    font-size: 14px;
-}
-.col-xl-10 .col-lg-10 .col-md-10{
-    padding-left: 0px;
-}
-.logo a img{
-    width: 200%;
-}
-.header-btn {
-    padding: 15px 30px;
-}
-.btn{
-    font-size: 12px;
-}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ml-30 {
+        margin-left: 15px;
+    }
+    .header-area .main-header .main-menu ul li a {
+        padding: 30px 11px;
+        font-size: 14px;
+    }
+    .col-xl-10 .col-lg-10 .col-md-10 {
+        padding-left: 0px;
+    }
+    .logo a img {
+        width: 200%;
+    }
+    .header-btn {
+        padding: 15px 30px;
+    }
+    .btn {
+        font-size: 12px;
+    }
 }
 
 .header-area .main-header .main-menu ul li:hover>a {
@@ -2889,7 +2889,6 @@ hr {
     background-image: url(../img/hero/h1_hero.png);
     background-repeat: no-repeat;
     background-position: center center;
-   
 }
 
 #slide_2 {
@@ -2898,7 +2897,6 @@ hr {
     background-image: url(../img/hero/h1_hero_2.png);
     background-repeat: no-repeat;
     background-position: center center;
-   
 }
 
 #slide_3 {
@@ -2907,7 +2905,6 @@ hr {
     background-image: url(../img/hero/h1_hero_3.png);
     background-repeat: no-repeat;
     background-position: center center;
-  
 }
 
 #slide_4 {
@@ -2916,7 +2913,6 @@ hr {
     background-image: url(../img/hero/h1_hero_4.png);
     background-repeat: no-repeat;
     background-position: center center;
-  
 }
 
 .slider-area .hero__caption {
@@ -2960,19 +2956,17 @@ hr {
     transform: translateY(-50%)
 }
 
-.logo-width{
+.logo-width {
     width: 140%;
 }
+
 @media (max-width: 575px) {
     .slider-area .hero__caption span::before {
         width: 50px
     }
-    .logo-width{
-           width: 250px;
+    .logo-width {
+        width: 250px;
     }
-
-
-
 }
 
 .slider-area .hero__caption h1 {
@@ -3094,23 +3088,21 @@ hr {
 @media (max-width: 575px) {
     .slider-area .hero__caption p {
         font-size: 11px;
-      
         margin-bottom: 12px;
         padding-right: 120px;
     }
     .hero-btn {
         padding: 13px 45px 13px 14px;
     }
-    .btn{
+    .btn {
         font-size: 11px;
     }
-    
     .slider-area .hero__caption h1 {
         margin-bottom: 14px;
         padding-right: 110px;
     }
-    .single-slider{
-        max-height: 350px; 
+    .single-slider {
+        max-height: 350px;
         max-height: 350px;
     }
 }
@@ -3438,10 +3430,9 @@ hr {
     .department_area .depart_ment_tab .nav li:last-child {
         margin-right: 15
     }
-    .logo-width{
+    .logo-width {
         width: 300px;
     }
-   
 }
 
 @media (max-width: 575px) {
@@ -3452,7 +3443,7 @@ hr {
         margin: 0px;
         margin-bottom: 0 !important
     }
-    .logo-white-width{
+    .logo-white-width {
         width: 50%;
     }
 }
@@ -3464,10 +3455,9 @@ hr {
         flex: 30% 0 0;
         margin-bottom: 0 !important
     }
-    .logo-width{
+    .logo-width {
         width: 300px;
     }
-    
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -3477,7 +3467,7 @@ hr {
         flex: 15% 0 0;
         margin-bottom: 0 !important
     }
-    .logo-width{
+    .logo-width {
         width: 140%;
     }
 }
@@ -5280,61 +5270,51 @@ hr {
     transition: 0.5s
 }
 
-.instagram_profile{
+.instagram_profile {
     text-align: center;
     display: flex;
-      margin-right: -6px;
-      margin-left: -6px
-  }
-  .instagram_username{
+    margin-right: -6px;
+    margin-left: -6px
+}
+
+.instagram_username {
     font-size: 20px !important;
-      margin-bottom: 40px;
-  }
-  .instagram_gallery{
-  
-      margin-right: -6px;
-      margin-left: -6px;
-  }
-  .instagram_gallery a img{
+    margin-bottom: 40px;
+}
+
+.instagram_gallery {
+    margin-right: -6px;
+    margin-left: -6px;
+}
+
+.instagram_gallery a img {
     width: 33.33%;
-      float: left;
-      padding-right: 6px;
-      padding-left: 6px;
-      margin-bottom: 15px;
-      max-width: 100%;
-      height: auto;
-  }
-  
-  .instagram_feed{
+    float: left;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.instagram_feed {
     height: 360px;
     background: #fbf9ff;
-      padding: 30px;
-      margin-bottom: 30px;
-  }
+    padding: 30px;
+    margin-bottom: 30px;
+}
 
-  .instagram_profile_image{
+.instagram_profile_image {
     border-radius: 10em;
     width: 40%;
     max-width: 125px;
     min-width: 50px;
     margin-bottom: 20px;
-  }
-  .instagram_username a {
-      color: blue;
-  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.instagram_username a {
+    color: blue;
+}
 
 .blog_right_sidebar .instagram_feeds .instagram_row {
     display: flex;
@@ -5420,10 +5400,9 @@ hr {
     margin-bottom: 20px;
     font-size: 14px;
     word-break: break-word;
-            white-space: normal;
-            text-align: justify;
+    white-space: normal;
+    text-align: justify;
 }
-
 
 .single-post-area .quote-wrapper {
     background: rgba(130, 139, 178, 0.1);
@@ -5920,19 +5899,20 @@ hr {
 .modal-message .modal-dialog .modal-content .modal-header p {
     display: block
 }
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:65%;
-    position:relative;
-    height:0;
 
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 65%;
+    position: relative;
+    height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:90%;
-    width:100%;
-    position:absolute;
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    position: absolute;
 }
 
 @media (max-width: 991px) {
@@ -7319,24 +7299,23 @@ b, sup, sub, u, del {
     margin-bottom: 10px
 }
 
-
-
 /************************ SSS  *************************************/
+
 .app {
     font-family: 'Avenir Next', sans-serif;
     color: #031d3d;
     padding-bottom: 152px;
-  }
-  
-  .container {
+}
+
+.container {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 38px;
     box-sizing: border-box;
-  }
-  
-  button {
+}
+
+button {
     border: none;
     background: none;
     font-size: inherit;
@@ -7345,42 +7324,49 @@ b, sup, sub, u, del {
     padding: 0;
     cursor: pointer;
     outline: none;
-  }
-  
-  .accordions__controls {
+}
+
+.accordions__controls {
     display: flex;
     justify-content: flex-end;
     padding-top: 38px;
     padding-bottom: 19px;
-  }
-  .accordions__control {
+}
+
+.accordions__control {
     font-weight: 600;
     font-size: 18px;
     color: #00a5a9;
     transition: color .3s ease-in-out;
-  }
-  .accordions__control:hover, .accordions__control:focus {
+}
+
+.accordions__control:hover, .accordions__control:focus {
     color: #031d3d;
-  }
-  .accordions__header {
+}
+
+.accordions__header {
     font-size: 32px;
     font-weight: 600;
     background-color: #f0f0f0;
     position: relative;
     border-bottom: solid 1px #d3d3d3;
-  }
-  .accordions__container {
+}
+
+.accordions__container {
     display: flex;
-  }
-  .accordions__title {
+}
+
+.accordions__title {
     position: relative;
     padding: 28px 0;
     padding-right: 38px;
     flex: 1;
     z-index: 2;
     background-color: #f0f0f0;
-  }
-  .accordions__title::after {
+    font-size: 1.1rem;
+}
+
+.accordions__title::after {
     content: '';
     position: absolute;
     bottom: -1px;
@@ -7388,14 +7374,16 @@ b, sup, sub, u, del {
     right: 0;
     border-bottom: solid 1px #d3d3d3;
     z-index: 1;
-  }
-  .accordions__button {
+}
+
+.accordions__button {
     color: white;
     padding-left: 38px;
     line-height: 1;
     transition: padding .3s ease-in-out;
-  }
-  .accordions__button::before {
+}
+
+.accordions__button::before {
     content: '';
     background-color: #08ced2;
     position: absolute;
@@ -7408,61 +7396,70 @@ b, sup, sub, u, del {
     border-bottom: solid 1px #09a5a8;
     cursor: pointer;
     transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
-  }
-  .accordions__button:hover {
+}
+
+.accordions__button:hover {
     padding-right: 38px;
-  }
-  .accordions__button:hover::before {
+}
+
+.accordions__button:hover::before {
     background-color: #09a5a8;
-  }
-  .accordions__button:focus::before {
+}
+
+.accordions__button:focus::before {
     background-color: #09a5a8;
-  }
-  .accordions__button:active, .accordions__button--active {
+}
+
+.accordions__button:active, .accordions__button--active {
     padding-right: 38px;
-  }
-  .accordions__button:active::before, .accordions__button--active::before {
+}
+
+.accordions__button:active::before, .accordions__button--active::before {
     background-color: #031d3d !important;
     border-bottom: solid 1px #031730;
-  }
-  .accordions__button:active .accordions__icon, .accordions__button--active .accordions__icon {
+}
+
+.accordions__button:active .accordions__icon, .accordions__button--active .accordions__icon {
     transform: rotate(45deg);
-  }
-  .accordions__icon {
+}
+
+.accordions__icon {
     position: relative;
     z-index: 2;
     transition: transform .3s ease-in-out;
-  }
-  .accordions__content {
+}
+
+.accordions__content {
     background-color: white;
     max-height: 0;
     opacity: 0;
     overflow: hidden;
     transition: max-height 1.2s ease-in-out, opacity .6s ease-in-out .6s, transform .6s ease-in-out .6s;
     transform: translateY(38px);
-  }
-  .accordions__content--expanded {
+}
+
+.accordions__content--expanded {
     max-height: 200vh;
     opacity: 1;
     padding-bottom: 76px;
     transform: none;
-  }
-  
-  .rich-text {
+}
+
+.rich-text {
     font-size: 16px;
     line-height: 32px;
-  }
-  .rich-text p {
+}
+
+.rich-text p {
     margin-top: 10px;
-  }
-  .app h4{
+}
+
+.app h4 {
     color: #09A5A8;
     margin-top: 15px;
     font-weight: bold;
-  }
-  .app li{
-    
-        list-style: inside;
-    
-  }
- 
+}
+
+.app li {
+    list-style: inside;
+}
