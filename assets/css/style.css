@@ -7439,7 +7439,7 @@ button {
 }
 
 .accordions__content--expanded {
-    max-height: 200vh;
+    max-height: 1000vh;
     opacity: 1;
     padding-bottom: 76px;
     transform: none;
