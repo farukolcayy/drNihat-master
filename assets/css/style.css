@@ -2910,7 +2910,7 @@ hr {
 #slide_4 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero_4.png);
+    background-image: url(../img/hero/h1_hero_4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -3311,7 +3311,7 @@ hr {
 }
 
 .department_area {
-    background-image: url(../img/gallery/department.png);
+    background-image: url(../img/gallery/department.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
@@ -3614,7 +3614,7 @@ hr {
     align-items: center;
     width: 50%;
     padding: 0 9%;
-    background-image: url(../img/gallery/section_bg01.png);
+    background-image: url(../img/gallery/section_bg01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -3779,7 +3779,7 @@ hr {
 
 .all-starups-area .starups-img {
     width: 50%;
-    background-image: url(../img/gallery/startup.png);
+    background-image: url(../img/gallery/startup.jpg);
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
