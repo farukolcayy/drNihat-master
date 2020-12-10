@@ -2670,7 +2670,7 @@ hr {
 .header-area .main-header .main-menu ul li a {
     color: #102039;
     font-weight: 600;
-    padding: 39px 27px;
+    padding: 39px 25px;
     display: block;
     font-size: 15px;
     -webkit-transition: .3s;
@@ -2878,7 +2878,7 @@ hr {
 }
 
 .slider-area2 {
-    background-image: url(../img/hero/hero2.png);
+    background-image: url(../img/hero/hero2.jpg);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -2886,7 +2886,7 @@ hr {
 #slide_1 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero.png);
+    background-image: url(../img/hero/h1_hero.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -2894,7 +2894,7 @@ hr {
 #slide_2 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero_2.png);
+    background-image: url(../img/hero/h1_hero_2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -2902,7 +2902,7 @@ hr {
 #slide_3 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero_3.png);
+    background-image: url(../img/hero/h1_hero_3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
