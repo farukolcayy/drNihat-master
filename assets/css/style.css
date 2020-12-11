@@ -3778,6 +3778,7 @@ hr {
 }
 
 .all-starups-area .starups-img {
+    background-size: 100% 100% !important;
     width: 50%;
     background-image: url(../img/gallery/startup.jpg);
     background-size: 100%;
@@ -5298,7 +5299,7 @@ hr {
 }
 
 .instagram_feed {
-    height: 360px;
+    height: 380px;
     background: #fbf9ff;
     padding: 30px;
     margin-bottom: 30px;
