@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 09/10/2020 15:14
+  	Creation date: 15/12/2020 16:46
   	*/
 
 @font-face {
@@ -30,9 +30,9 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-face-scan:before { content: "\f100"; }
-.flaticon-broken-bone:before { content: "\f101"; }
-.flaticon-endoscope:before { content: "\f102"; }
-.flaticon-theater-masks:before { content: "\f103"; }
-.flaticon-band-aid:before { content: "\f104"; }
-.flaticon-woman:before { content: "\f105"; }
+.flaticon-breast-implant:before { content: "\f100"; }
+.flaticon-clock:before { content: "\f101"; }
+.flaticon-ultrasonic-scaler:before { content: "\f102"; }
+.flaticon-face-scan:before { content: "\f103"; }
+.flaticon-bone:before { content: "\f104"; }
+.flaticon-happiness:before { content: "\f105"; }

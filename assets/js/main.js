@@ -3,8 +3,8 @@
 
   /* 1. Proloder */
   $(window).on('load', function () {
-    $('#preloader-active').delay(450).fadeOut('slow');
-    $('body').delay(450).css({
+    $('#preloader-active').delay(100).fadeOut('slow');
+    $('body').delay(100).css({
       'overflow': 'visible'
     });
   });
@@ -44,7 +44,7 @@
   };
 
   /* 4. MainSlider-1 */
-  
+
   // h1-hero-active
   function mainSlider() {
     var BasicSlider = $('.slider-active');
@@ -245,10 +245,10 @@
 
 
   /* 14. Datepicker */
-  $('#datepicker1').datepicker();
+  // $('#datepicker1').datepicker();
 
   // 15. Time Picker
-  $('#timepicker').timepicker();
+  // $('#timepicker').timepicker();
 
 
   function inVisible(element) {
