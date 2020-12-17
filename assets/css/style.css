@@ -565,6 +565,13 @@ hr {
     .border-btn {
         display: none
     }
+    .slider-1 p{ 
+        width: 335px;
+    }
+    #slider{
+        margin-top: 135px !important;
+  
+    }
 }
 
 .border-btn::before {
@@ -2137,6 +2144,8 @@ hr {
         padding-top: 70px;
         padding-bottom: 70px
     }
+   
+  
 }
 
 @media (max-width: 575px) {
@@ -2144,6 +2153,7 @@ hr {
         padding-top: 70px;
         padding-bottom: 70px
     }
+    
 }
 
 .pb-bottom {
@@ -2780,12 +2790,15 @@ hr {
     .header-sticky.sticky-bar.sticky {
         padding: 15px 0px
     }
+    
 }
 
 @media (max-width: 575px) {
     .header-sticky.sticky-bar.sticky {
         padding: 15px 0px
     }
+  
+  
 }
 
 .mobile_menu {
@@ -3326,6 +3339,7 @@ hr {
         text-align: left !important;
         margin-top: 30px
     }
+    
 }
 
 .department_area .dept_main_info .dept_thumb img {
@@ -3361,6 +3375,12 @@ hr {
     .department_area .dept_main_info .dept_info {
         padding: 71px 18px 60px 23px
     }
+   
+    #slider{
+        margin-top: 135px !important;
+  
+    }
+    
 }
 
 @media (max-width: 575px) {
@@ -3386,6 +3406,13 @@ hr {
 @media (min-width: 992px) and (max-width: 1200px) {
     .department_area .dept_main_info .dept_info h3 br {
         display: none
+    }
+    .slider-1 p{ 
+        width: 294px;
+    }
+    #slider{
+        margin-top: 245px !important;
+  
     }
 }
 
@@ -5635,6 +5662,13 @@ hr {
     .comments-area {
         padding: 50px 8px
     }
+    .slider-1 p{ 
+        width: 285px;
+    }
+    #slider{
+        margin-top: 135px !important;
+  
+    }
 }
 
 .comments-area h4 {
@@ -5669,6 +5703,7 @@ hr {
     .comments-area .comment-list .single-comment .comment {
         font-size: 10px
     }
+    
 }
 
 .comments-area .thumb {
@@ -7527,6 +7562,10 @@ button {
     color: white;
     line-height: 131%;
     font-size: 20px;
+}
+
+#slider{
+    height: inherit;
 }
 
 .slider-container span {
