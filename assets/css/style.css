@@ -2891,7 +2891,7 @@ hr {
 }
 
 .slider-area2 {
-    background-image: url(../img/hero/hero2.webp);
+    background-image: url(../img/hero/hero2.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -2899,7 +2899,7 @@ hr {
 #slide_1 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero.webp);
+    background-image: url(../img/hero/h1_hero.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -2907,7 +2907,7 @@ hr {
 #slide_2 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero_2.webp);
+    background-image: url(../img/hero/h1_hero_2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -2915,7 +2915,7 @@ hr {
 #slide_3 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero_3.webp);
+    background-image: url(../img/hero/h1_hero_3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -2923,7 +2923,7 @@ hr {
 #slide_4 {
     background-size: 100% 100%;
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero_4.webp);
+    background-image: url(../img/hero/h1_hero_4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
