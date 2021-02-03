@@ -7542,6 +7542,7 @@ button {
 /*** Content ***/
 
 .slider-container {
+   
     color: #000;
     margin: 0 auto;
     padding: 0;
@@ -7557,6 +7558,7 @@ button {
 }
 
 .slider-container p {
+    padding-right: 65px;
     margin: 10px 25px;
     font-weight: normal;
     color: white;
