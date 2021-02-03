@@ -3650,6 +3650,19 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .all-starups-area .starups {
+        padding-left: 35px;
+        padding-right: 35px
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .slider-container p{
+      
+        padding-right: 35px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .all-starups-area .starups {
+        padding-left: 135px;
         padding-right: 35px
     }
 }
@@ -7558,8 +7571,8 @@ button {
 }
 
 .slider-container p {
-    padding-right: 65px;
-    margin: 10px 25px;
+    padding-right: 0px;
+    margin: 10px 5px;
     font-weight: normal;
     color: white;
     line-height: 131%;
