@@ -30,7 +30,9 @@
    
   
     <link rel="stylesheet" href="/assets/css/style.css" />
-   
+
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!--Floating WhatsApp javascript-->
     <!-- <link href="assets/css/foundation.css" rel="stylesheet" type="text/css" /> -->
    
@@ -182,32 +184,36 @@
                     <h2 class="contact-title">İletisim</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
-                        novalidate="novalidate">
+                    <form class="form-contact contact_form"  id="contactForm">
+                       
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
-                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mesajınız'"
-                                        placeholder=" Mesajınız"></textarea>
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder=" Mesajınız" required></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control valid" name="name" id="name" type="text"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'İsim'"
-                                        placeholder="Ad Soyad">
+                                    <input class="form-control valid" name="name" id="name" type="text"  placeholder="Ad Soyad" required>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control valid" name="email" id="email" type="email"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'"
-                                        placeholder="Email">
+                                    <input class="form-control valid" name="email" id="email" type="email" placeholder="Email" required>
                                 </div>
                             </div>
-                            
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="tel" id="tel" type="tel" placeholder="Tel" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6Lc72VQaAAAAACPRHzpAZWefRP3s93wtwLJ22HXn"></div>
+                                </div>
+                            </div>
                         </div>
+                        
                         <div class="form-group mt-3">
                             <button type="submit" class="button button-contactForm boxed-btn">Gönder</button>
                         </div>
@@ -329,6 +335,9 @@
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
 
+<!---sweet alert-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 <!-- JS here -->
 
 <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -353,10 +362,10 @@
 <script src="/assets/js/jquery.sticky.js"></script>
 
 <!-- contact js -->
-<script src="/assets/js/contact.js"></script>
+
 <script src="/assets/js/jquery.form.js"></script>
 <script src="/assets/js/jquery.validate.min.js"></script>
-<script src="/assets/js/mail-script.js"></script>
+
 <script src="/assets/js/jquery.ajaxchimp.min.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->
@@ -365,6 +374,127 @@
 
 <script src="/assets/js/jquery.event.move.js"></script>
 <script src="/assets/js/jquery.twentytwenty.js"></script>
+
+<script>
+    $(document).ready(function(){
+        function isNumericInputPhone(event) {
+                var key = event.keyCode;
+                return ((key >= 48 && key <= 57) || // Allow number line
+                    (key >= 96 && key <= 105) // Allow number pad
+                );
+            };
+
+            function isModifierKey(event) {
+                var key = event.keyCode;
+                return (event.shiftKey === true || key === 35 || key === 36) || // Allow Shift, Home, End
+                    (key === 8 || key === 9 || key === 13 || key === 46) || // Allow Backspace, Tab, Enter, Delete
+                    (key > 36 && key < 41) || // Allow left, up, right, down
+                    (
+                        // Allow Ctrl/Command + A,C,V,X,Z
+                        (event.ctrlKey === true || event.metaKey === true) &&
+                        (key === 65 || key === 67 || key === 86 || key === 88 || key === 90)
+                    )
+            };
+
+            function enforceFormat(event) {
+                // Input must be of a valid number format or a modifier key, and not longer than ten digits
+                if (!isNumericInputPhone(event) && !isModifierKey(event)) {
+                    event.preventDefault();
+                }
+            };
+
+            function formatToPhone(event) {
+                if (isModifierKey(event)) {
+                    return;
+                }
+
+                // I am lazy and don't like to type things more than once
+                var target = event.target;
+                var input = event.target.value.replace(/\D/g, '').substring(0, 10); // First ten digits of input only
+                var zip = input.substring(0, 3);
+                var middle = input.substring(3, 6);
+                var last = input.substring(6, 10);
+                if (zip.charAt(0) === "0") {
+                    target.value = ``;
+                } else if (input.length > 6) {
+                    target.value = `(${zip}) ${middle} - ${last}`;
+                } else if (input.length > 3) {
+                    target.value = `(${zip}) ${middle}`;
+                } else if (input.length > 0) {
+                    target.value = `(${zip}`;
+                }
+            };
+
+            $(document).on("keydown", "#tel", function(e) {
+                enforceFormat(e);
+            });
+
+            $(document).on("keyup", "#tel", function(e) {
+                formatToPhone(e);
+            });
+
+
+        
+
+        function MailKontrol(email) {
+                var kontrol = new RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+                return kontrol.test(email);
+         };
+
+
+       $('#contactForm').submit(function(e){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+
+        var values = $(this).serialize();
+        var response = grecaptcha.getResponse();
+        if(response.length === 0){
+            swal("Uyarı","Lütfen Bot Olmadığınızı Onaylayın!","warning");
+            return false;
+        }else{
+            $.ajax({
+            type:"POST",
+            url: "/post.php",
+          
+            data: values
+        })
+          .done(function(data){
+            
+
+                    if($.trim(data)==="Mesajınız İletildi"){
+               swal("Başarılı","Mesajınızİletildi","success").then(function(){
+                         window.location.reload(true);
+               });
+               $('#contactForm')[0].reset();
+
+            }else if ($.trim(data)=== "Hata: Mesajınız İletilemedi"){
+                swal("Hata","Mesajınız İletilemedi","error");
+            }else {
+                swal("Hata","Tüm alanlar doldurulmalı!","error");
+            }
+          })
+          .fail(function(e){
+                swal("Hata","Mesajınız Gonderilemedi","error");
+                console.log(e);
+            });
+            return false;
+          }
+ 
+       });
+
+
+
+    });
+    
+    
+    
+    
+    
+    </script>
+
+
+
+
 
 </body>
 
