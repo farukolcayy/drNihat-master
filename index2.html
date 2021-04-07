@@ -175,17 +175,12 @@
                             </a></li>
                         </ul>
                       </li>
-                      <li>
-                        <a href="">
-                          <div class="flip-switch flip-switch-text">
-                            <input type="checkbox" id="c3">
-                            <label for="c3"></label>
-                          </div>
-                        </a>
-                      </li>
+
                     </ul>
                   </nav>
                 </div>
+
+
               </div>
             </div>
           </div>
@@ -1009,7 +1004,10 @@
 
   <script type="text/javascript">
     var dil = navigator.language || navigator.userLanguage;
-    if (!(dil == "tr-TR" | dil == "tr")) {
+    if (dil == "tr-TR" | dil == "tr") {
+      // document.location = "tr.aspx";
+    }
+    else {
       document.location = "index2.html";
     }
   </script>
