@@ -1,1 +1,5 @@
 User-agent:*
+
+
+
+https://www.drnihatkaya.com/sitemap.xml

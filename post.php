@@ -32,7 +32,7 @@ if (!empty($messeage) && !empty($name) && !empty($email) && !empty($tel)) {
         $message = urlencode('Dr. Nihat Kaya İletişim Formu    Mesaj:' . $messeage . ' İsim:' . $name . ' Email:' . $email . ' Telefon:' . $tel);
         $message2 = str_replace("'", ' ', $message);
         $message3 = str_replace(" ", '%20', $message2);
-        $postUrl = "http://panel.1sms.com.tr:8080/api/smsget/v1?username=bw&password=9bcd9b9d53b99ea8d54e7b2d5e006626&header=BadiWorks&gsm=905534597473&message=" . $message3;
+        $postUrl = "http://panel.1sms.com.tr:8080/api/smsget/v1?username=bw&password=9bcd9b9d53b99ea8d54e7b2d5e006626&header=BadiWorks&gsm=905334597473&message=" . $message3;
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $postUrl);

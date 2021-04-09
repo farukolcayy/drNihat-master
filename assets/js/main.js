@@ -1,5 +1,33 @@
+
 (function ($) {
   "use strict"
+
+  $("#switcher").change(function () {
+    if (this.checked) {
+      $("#switcher").prop('checked', true);
+      $("#filt-hourly").addClass("toggler--is-active");
+      $("#filt-monthly").removeClass("toggler--is-active");
+      $("#monthly").addClass("hide");
+      $("#hourly").removeClass("hide");
+
+      setTimeout(function () {
+        window.location.href = "./en";
+      }, 1000);
+
+    } else {
+
+      $("#switcher").prop('checked', false);
+      $("#filt-monthly").addClass("toggler--is-active");
+      $("#filt-hourly").removeClass("toggler--is-active");
+      $("#monthly").removeClass("hide");
+      $("#hourly").addClass("hide");
+
+      setTimeout(function () {
+        window.location.href = "../";
+      }, 1000);
+
+    }
+  });
 
   /* 1. Proloder */
   $(window).on('load', function () {
