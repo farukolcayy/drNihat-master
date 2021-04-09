@@ -2118,6 +2118,12 @@ hr {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .department_area .depart_ment_tab .nav li a h4 {
+        font-size: 15px !important;
+    }
+    .header-area .main-header .main-menu ul li a {
+        padding: 39px 12px !important;
+    }
     .section-padding2 {
         padding-top: 200px;
         padding-bottom: 200px
