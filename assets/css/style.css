@@ -146,7 +146,12 @@ body {
     font-style: normal
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Muli", sans-serif;
     color: #030431;
     margin-top: 0px;
@@ -200,14 +205,16 @@ p {
     clear: both
 }
 
-a, .button {
+a,
+.button {
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -o-transition: .3s;
     transition: .3s
 }
 
-a:focus, .button:focus {
+a:focus,
+.button:focus {
     text-decoration: none;
     outline: none
 }
@@ -220,16 +227,24 @@ a:hover {
     color: #fff
 }
 
-a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
     text-decoration: none
 }
 
-a, button {
+a,
+button {
     color: #fff;
     outline: medium none
 }
 
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
     outline: 0
 }
 
@@ -248,7 +263,12 @@ input:focus::-moz-placeholder {
     text-transform: capitalize
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
     color: inherit
 }
 
@@ -419,7 +439,8 @@ hr {
     background-position: right
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
     outline: 0;
     box-shadow: none
 }
@@ -600,7 +621,8 @@ hr {
     color: #888
 }
 
-#scrollUp, #back-top {
+#scrollUp,
+#back-top {
     background: #0f61ef;
     height: 50px;
     width: 50px;
@@ -617,7 +639,8 @@ hr {
 }
 
 @media (max-width: 575px) {
-    #scrollUp, #back-top {
+    #scrollUp,
+    #back-top {
         right: 16px
     }
     .p-line {
@@ -625,7 +648,8 @@ hr {
     }
 }
 
-#scrollUp a i, #back-top a i {
+#scrollUp a i,
+#back-top a i {
     display: block;
     line-height: 50px
 }
@@ -2445,13 +2469,13 @@ hr {
 
 .footer-padding {
     padding-top: 150px;
-    padding-bottom: 50px
+    padding-bottom: 20px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .footer-padding {
         padding-top: 150px;
-        padding-bottom: 50px
+        padding-bottom: 20px
     }
 }
 
@@ -2995,11 +3019,13 @@ hr {
     margin-bottom: -50px;
 }
 
-.col-mb-50>.col, .col-mb-50>[class*="col-"] {
+.col-mb-50>.col,
+.col-mb-50>[class*="col-"] {
     padding-bottom: 50px;
 }
 
-.col-mb-50>.col, .col-mb-50>[class*="col-"] {
+.col-mb-50>.col,
+.col-mb-50>[class*="col-"] {
     padding-bottom: 50px;
 }
 
@@ -3011,15 +3037,18 @@ hr {
     float: none !important;
 }
 
-.ml-auto, .mx-auto {
+.ml-auto,
+.mx-auto {
     margin-left: auto !important;
 }
 
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
     margin-right: auto !important;
 }
 
-.mb-0, .my-0 {
+.mb-0,
+.my-0 {
     margin-bottom: 0 !important;
 }
 
@@ -4602,7 +4631,8 @@ hr {
     transition: .4s
 }
 
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
     background: -webkit-linear-gradient(131deg, #0f61ef 0%, #0f61ef 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -5067,7 +5097,8 @@ hr {
     color: #999999
 }
 
-.blog-info-link li i, .blog-info-link li span {
+.blog-info-link li i,
+.blog-info-link li span {
     font-size: 13px;
     margin-right: 5px
 }
@@ -5225,7 +5256,8 @@ hr {
     border-left: 0
 }
 
-.blog_right_sidebar .newsletter_widget .input-group button i, .blog_right_sidebar .newsletter_widget .input-group button span {
+.blog_right_sidebar .newsletter_widget .input-group button i,
+.blog_right_sidebar .newsletter_widget .input-group button span {
     font-size: 14px;
     color: #fff
 }
@@ -5393,7 +5425,8 @@ hr {
     margin-right: 10px
 }
 
-.blog-pagination .page-link i, .blog-pagination .page-link span {
+.blog-pagination .page-link i,
+.blog-pagination .page-link span {
     font-size: 13px
 }
 
@@ -5494,7 +5527,8 @@ hr {
     font-size: 14px
 }
 
-.single-post-area .navigation-top .like-info i, .single-post-area .navigation-top .like-info span {
+.single-post-area .navigation-top .like-info i,
+.single-post-area .navigation-top .like-info span {
     font-size: 16px;
     margin-right: 5px
 }
@@ -5503,7 +5537,8 @@ hr {
     font-size: 14px
 }
 
-.single-post-area .navigation-top .comment-count i, .single-post-area .navigation-top .comment-count span {
+.single-post-area .navigation-top .comment-count i,
+.single-post-area .navigation-top .comment-count span {
     font-size: 16px;
     margin-right: 5px
 }
@@ -5517,7 +5552,8 @@ hr {
     margin: 0
 }
 
-.single-post-area .navigation-top .social-icons li i, .single-post-area .navigation-top .social-icons li span {
+.single-post-area .navigation-top .social-icons li i,
+.single-post-area .navigation-top .social-icons li span {
     font-size: 14px;
     color: #999999
 }
@@ -5846,7 +5882,8 @@ hr {
     margin-right: 20px
 }
 
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
     color: #8f9195;
     font-size: 27px
 }
@@ -6257,11 +6294,20 @@ hr {
     font-size: 24px
 }
 
-b, sup, sub, u, del {
+b,
+sup,
+sub,
+u,
+del {
     color: #1f2b7b
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
     color: #828bb2
 }
 
@@ -6554,7 +6600,10 @@ b, sup, sub, u, del {
     display: flex
 }
 
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
     color: #415094;
     line-height: 40px;
     text-transform: uppercase;
@@ -6567,7 +6616,10 @@ b, sup, sub, u, del {
     display: flex
 }
 
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
     display: flex;
     align-items: center
 }
@@ -7341,6 +7393,7 @@ b, sup, sub, u, del {
     margin-bottom: 10px
 }
 
+
 /************************ SSS  *************************************/
 
 .app {
@@ -7382,7 +7435,8 @@ button {
     transition: color .3s ease-in-out;
 }
 
-.accordions__control:hover, .accordions__control:focus {
+.accordions__control:hover,
+.accordions__control:focus {
     color: #031d3d;
 }
 
@@ -7452,16 +7506,19 @@ button {
     background-color: #09a5a8;
 }
 
-.accordions__button:active, .accordions__button--active {
+.accordions__button:active,
+.accordions__button--active {
     padding-right: 38px;
 }
 
-.accordions__button:active::before, .accordions__button--active::before {
+.accordions__button:active::before,
+.accordions__button--active::before {
     background-color: #031d3d !important;
     border-bottom: solid 1px #031730;
 }
 
-.accordions__button:active .accordions__icon, .accordions__button--active .accordions__icon {
+.accordions__button:active .accordions__icon,
+.accordions__button--active .accordions__icon {
     transform: rotate(45deg);
 }
 
@@ -7506,6 +7563,7 @@ button {
     list-style: inside;
 }
 
+
 /**********Slider Text**********/
 
 #slider slider-text {
@@ -7544,6 +7602,7 @@ button {
     color: #666;
 }
 
+
 /*** Content ***/
 
 .slider-container {
@@ -7580,6 +7639,7 @@ button {
     font-size: 18px;
     color: #ffc800;
 }
+
 
 /*** target hooks ****/
 
@@ -7645,9 +7705,11 @@ button {
     -webkit-animation-play-state: paused;
 }
 
+
 /*switch language*/
 
-.toggle, .toggler {
+.toggle,
+.toggler {
     display: inline-block;
     vertical-align: middle;
     margin: 6px;
