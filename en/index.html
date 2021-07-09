@@ -92,6 +92,12 @@
 </head>
 
 <body>
+
+    <div class="cookie">
+        <p style="text-align: center;">Cookies are used to make the most of our site. By logging into this site, you accept the use of cookies. </br>Click for the <a style="color: aqua !important;" href="/hasta-aydınlatma-kvkk-muayene_TR.pdf" target="_blank" id="cookieEnableDesc">Lighting text</a></p>
+        <button style="padding: 10px 25px;background-color: #34a7ac;border-radius: 30px;" class="cookie-btn">Understand</button>
+      </div>
+
     <div id="WAButton"></div>
     <!-- ? Preloader Start -->
     <div id="preloader-active">
@@ -1094,6 +1100,23 @@
             })
         })
 
+                /*Privacy Popup Start*/
+                const cookie = document.querySelector('.cookie');
+                const cookieButton = document.querySelector('.cookie-btn');
+    
+                var _isPrivacy = localStorage.getItem("isPrivacy");
+    
+                if (_isPrivacy != "1") {
+                    cookie.classList.add('show');
+                }
+    
+                cookieButton.addEventListener('click', function(){
+                    cookie.classList.remove('show');
+                    cookie.classList.add('hide');
+                    localStorage.setItem("isPrivacy", "1");
+                });
+                /*Privacy Popup End*/
+                
         $('#WAButton').floatingWhatsApp({
             phone: '+905434161906', //WhatsApp Business phone number International format-
             //Get it with Toky at https://toky.co/en/features/whatsapp.
