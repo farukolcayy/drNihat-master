@@ -11,4 +11,3 @@ RewriteRule (.*) https://www.drnihatkaya.com%{REQUEST_URI} [R=301,L]
 RewriteCond %{HTTP_HOST} ^drnihatkaya\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.drnihatkaya\.com$
 
-
