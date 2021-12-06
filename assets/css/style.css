@@ -2619,7 +2619,7 @@ hr {
 }
 
 .header-area .main-header {
-    padding: 0px 130px
+    padding: 0px 50px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -2729,7 +2729,7 @@ hr {
 
 .header-area .main-header .main-menu ul ul.submenu {
     position: absolute;
-    width: 170px;
+    width: 200px;
     background: rgba(255, 255, 255, 0.9);
     left: 0;
     top: 80%;
