@@ -9,6 +9,7 @@ if ($mysqli->connect_error) {
 
 $name = mysqli_real_escape_string($mysqli, $_REQUEST['name']);
 $tel = mysqli_real_escape_string($mysqli, $_REQUEST['tel']);
+$instagramUsername = trim(mysqli_real_escape_string($mysqli, $_REQUEST['instagramUsername']));
 
 if (!empty($name) && !empty($tel)) {
     $sql = "INSERT INTO contact_sm (name,tel) VALUES ('$name','$tel')";
@@ -18,12 +19,25 @@ if (!empty($name) && !empty($tel)) {
 
     if (mysqli_query($mysqli, $sql)) {
         ##mesaj gönderme kısmı
-        $message = urlencode('Dr. Nihat Kaya Destek Formu
+
+        if (!empty($instagramUsername)) {
+
+            $message = urlencode('Dr. Nihat Kaya Destek Formu
+
+İsim:' . $name . '
+Telefon:' . $tel . '
+İnstagram:@' . $instagramUsername . '
+        
+');
+        } else {
+
+            $message = urlencode('Dr. Nihat Kaya Destek Formu
 
 İsim:' . $name . '
 Telefon:' . $tel . '
         
 ');
+        }
 
         $message2 = str_replace("'", '`', $message);
         $message3 = str_replace(" ", '%20', $message2);
